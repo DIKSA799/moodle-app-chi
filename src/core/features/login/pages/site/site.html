@@ -90,6 +90,17 @@
             </form>
         }
 
+        @if (!fixedSites && !hasSites && !enteredSiteUrl) {
+            <!-- Quick connect to CHI-LMS -->
+            <div class="ion-text-center ion-padding ion-margin-top">
+                <ion-button expand="block" color="primary" class="ion-text-wrap chi-lms-quick-connect" 
+                    (click)="connect('https://lms.chi.edu.ng/public', $event)">
+                    <ion-icon slot="start" name="fas-graduation-cap" aria-hidden="true" />
+                    Connect to CHI-LMS
+                </ion-button>
+            </div>
+        }
+
         @if (fixedSites) {
 
             <!-- Pick the site from a list of fixed sites. -->

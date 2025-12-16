@@ -1,6 +1,6 @@
 {
     "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
+    "appname": "CHI-LMS",
     "versioncode": 51001,
     "versionname": "5.1.0",
     "cache_update_frequency_usually": 420000,
@@ -87,13 +87,19 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
+    "sites": [
+        {
+            "url": "https://lms.chi.edu.ng/public",
+            "name": "CHI-LMS",
+            "title": "CHI-LMS Official Site"
+        }
+    ],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
     "forcedefaultlanguage": false,
     "privacypolicy": "https://moodle.net/moodle-app-privacy/",
-    "notificoncolor": "#f98012",
+    "notificoncolor": "#22c55e",
     "enableanalytics": false,
     "enableonboarding": true,
     "forceColorScheme": "",
