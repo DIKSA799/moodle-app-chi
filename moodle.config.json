@@ -1,8 +1,8 @@
 {
-    "app_id": "ng.edu.chi.lms",
+    "app_id": "com.chi.edu.ng",
     "appname": "CHI-LMS",
-    "versioncode": 10001,
-    "versionname": "1.0.1",
+    "versioncode": 10002,
+    "versionname": "1.0.2",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
     "cache_update_frequency_sometimes": 3600000,
@@ -107,7 +107,7 @@
     "showTopLogo": "visible",
     "ioswebviewscheme": "moodleappfs",
     "appstores": {
-        "android": "ng.edu.chi.lms",
+        "android": "com.chi.edu.ng",
         "ios": "id633359593"
     },
     "wsrequestqueuelimit": 10,
